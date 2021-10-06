@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ElectronJs | ino</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col">
+            <h1>Ingrese una url</h1>
+
+            <!-- muestro mensajes por un tiempo determinado -->
+            <div class="error-message"></div>
+            <br>
+
+            <!-- input y boton guarda registro -->
+            <section class="seccionRegistro">
+                <form class="formRegistro">
+                    <input type="url" class="txtUrl" placeholder="http://www.example.com" size="80" required autofocus
+                        value="http://www."> </input>
+                    <button type="submit" class="btnGuardar" disabled="true">Guardar</button>
+                </form>
+            </section>
+
+            <!-- limpio el storage del navegador -->
+            <section class="controls">
+                <button class="btnClearStorage">Eliminar todos (local storage)</button>
+                <hr>
+            </section>
+            <br>
+
+
+            <!-- agrego nuevos elementos -->
+            <section class="seccionNewElementos"></section>
+            <hr>
+        </div>
+        <div class="col">
+            <h1>Screenshots web</h1>
+            <img class="imgPuppeteer"></img>
+            <h3 class="h3spinner">Seleccione un sitio web</h3>
+            <div class="spinner" hidden="true"></div>
+        </div>
+    </div>
+
+    <div class="loaderXL" hidden="true"></div>
+
+    <!-- funcionalidad de los elementos -->
+    <!-- <script>
+         require('./renderer');
+    </script> -->
+    <script src="renderer.js"></script>
+</body>
+
+</html>

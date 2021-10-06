@@ -1,0 +1,16 @@
+{
+  "name": "electronjs-primera-app",
+  "version": "1.0.0",
+  "description": "app de comienzo con electronjs",
+  "main": "./app/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Pablo Inostroza",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.1.0",
+    "puppeteer": "^10.4.0",
+    "url-exists": "^1.0.3"
+  }
+}
