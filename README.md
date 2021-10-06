@@ -2,7 +2,6 @@
 app de comienzo con electronjs.<br>
 -ingreso y validacion de url<br>
 -add y delete de local Storage<br>
--ingreso y validacion de url<br>
 -puppeteer con screenshot de url seleccionada<br>
 -abre url en navegador y no en ventana de app<br>
 -fetch, await, get esquelo html<br>
