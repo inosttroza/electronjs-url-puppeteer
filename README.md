@@ -1,10 +1,10 @@
 # electronjs-primera-app
 app de comienzo con electronjs.<br>
--ingreso y validacion de url<br>
--add y delete de local Storage<br>
--puppeteer con screenshot de url seleccionada<br>
--abre url en navegador y no en ventana de app<br>
--fetch, await, get esquelo html<br>
+-ingreso y validacion de url <br>
+-add y delete de local Storage <br>
+-puppeteer con screenshot de url seleccionada <br>
+-abre url en navegador y no en ventana de app <br>
+-fetch, await, get esquelo html <br>
 -loading y mas...<br>
 
 ### Modulos
